@@ -53,7 +53,6 @@ int main()
 	{
 		struct persondata*tem;
 		tem = head;
-		// printf("Heyy\n");
 		while(tem->number<=3)
 		{
 			tem->counter=tem->number;
