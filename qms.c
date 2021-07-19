@@ -99,7 +99,7 @@ int main()
 
 		int i=temper->number;
 		while(i<=9){
-			printf("person %d enter counter %d service will be started at at %ld and takes %ld seconds\n",i,(i-1)%3+1,temper->intime,temper->time);
+			printf("person %d enter counter %d service will be started at %ld and takes %ld seconds\n",i,(i-1)%3+1,temper->intime,temper->time);
 			temper=temper->next;
 			i++;
 		}
@@ -140,7 +140,7 @@ int main()
 							}
 							temp7=temp7->next;
 						}
-						printf("person %d enter counter %d service will be started at at %ld and takes %ld seconds\n",temp1->number,temp1->counter,temp1->intime,temp1->time);
+						printf("person %d enter counter %d service will be started at %ld and takes %ld seconds\n",temp1->number,temp1->counter,temp1->intime,temp1->time);
 						temp1 = temp1->next;
 					}
 				}
